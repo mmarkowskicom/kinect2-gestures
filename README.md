@@ -21,5 +21,5 @@ to install main dependencies for server
 ```cd build npm install```
 to install dependencies for build 
 
-```gulp```
+``` gulp ```
 in 'build' dir to build app
