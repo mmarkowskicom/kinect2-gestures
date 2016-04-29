@@ -18,9 +18,7 @@ javascript gestures for kinect
 ```run npm install``` 
 to install main dependencies for server
 
-```cd build
-
-npm install``` 
+```cd build npm install```
 to install dependencies for build 
 
 ```gulp```
