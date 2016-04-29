@@ -1,0 +1,45 @@
+{
+  "name": "kinect-gestures-app",
+  "version": "0.0.1",
+  "private": true,
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Huncwot.com",
+  "license": "BSD",
+  "dependencies": {
+    "gsap": "^1.18.2",
+    "jquery": "^1.11.3"
+  },
+  "devDependencies": {
+    "del": "*",
+    "fs": "0.0.2",
+    "gulp": "*",
+    "gulp-autoprefixer": "^1.0.1",
+    "gulp-concat": "*",
+    "gulp-connect": "*",
+    "gulp-connect-php": "*",
+    "gulp-header": "*",
+    "gulp-if": "*",
+    "gulp-imagemin": "~2.2.0",
+    "gulp-livereload": "*",
+    "gulp-load-plugins": "*",
+    "gulp-newer": "*",
+    "gulp-notify": "*",
+    "gulp-rename": "^1.2.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-size": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-strip-debug": "",
+    "gulp-svgmin": "*",
+    "gulp-svgstore": "*",
+    "gulp-template": "^3.1.0",
+    "gulp-uglify": "^1.1.0",
+    "gulp-util": "*",
+    "gulp-watch": "*",
+    "run-sequence": "^1.1.5",
+    "semver": "*",
+    "yargs": "*"
+  }
+}

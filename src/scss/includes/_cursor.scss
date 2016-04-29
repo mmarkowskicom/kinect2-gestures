@@ -1,0 +1,52 @@
+/*------------------------------------*\
+    #cursor
+\*------------------------------------*/
+
+body:not(.has-cursor) {
+	&,
+	a,
+	a:hover {
+		cursor: none; 
+	}
+}
+
+
+
+#cursor {
+	.has-cursor & {
+		opacity: 0;
+	}
+	
+	pointer-events: none;
+	
+	width: 2.6em;
+	height: 2.6em;
+	display: block;
+	border-radius: 50%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	transition: opacity 0.3s;
+	z-index: 999;
+	svg {
+		width: 100%;
+		height: 100%;
+	}
+	svg:first-child {
+		display:block;
+	}
+	svg:last-child {
+		display:none;
+	}
+
+	&.closed {
+		svg:first-child {
+			display:none;
+		}
+		svg:last-child {
+			display:block;
+		}
+	}
+}
+
